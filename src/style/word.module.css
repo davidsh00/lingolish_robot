@@ -1,0 +1,12 @@
+.word{
+    @apply flex gap-4 
+}
+.letter{
+    @apply w-6 h-12 transition-all hover:scale-110 cursor-pointer opacity-80 hover:opacity-100 flex justify-center items-center border border-gray-300
+}
+.letter-correct{
+    @apply bg-green-400
+}
+.letter-exist{
+    @apply bg-yellow-300
+}

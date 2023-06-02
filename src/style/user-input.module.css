@@ -1,0 +1,6 @@
+.form-input{
+    @apply w-full 
+}
+.form-input input{
+    @apply w-full p-4 border border-gray-500
+}
