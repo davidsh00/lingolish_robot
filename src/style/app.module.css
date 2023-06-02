@@ -1,3 +1,6 @@
 .container{
-    @apply flex flex-col h-screen overflow-hidden justify-center
+    @apply flex flex-col h-screen overflow-hidden justify-center mx-auto max-w-[1000px] p-4
+}
+.word-selected{
+    @apply p-4 text-center border-dashed border-2 border-gray-300 mb-4 opacity-40
 }

@@ -834,7 +834,7 @@ function App() {
         ""
       ) === selectedWord
     ) {
-      alert(`${!isUserTurn?'user':'robot'} win - ${selectedWord}`);
+      alert(`${!isUserTurn ? "user" : "robot"} win - ${selectedWord}`);
       reset();
     }
   }, [enterdWords]);
@@ -854,7 +854,7 @@ function App() {
   return (
     <div className="App">
       <div className={style.container}>
-        {selectedWord}
+        <div className={style["word-selected"]}>{selectedWord}</div>
         <WordList list={enterdWords} ref={wordListRef} />
         <UserInput length={5} enable={isUserTurn} onSubmit={userAddWord} />
       </div>
